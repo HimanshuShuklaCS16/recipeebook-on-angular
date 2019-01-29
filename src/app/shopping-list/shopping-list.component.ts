@@ -11,5 +11,8 @@ ingredients:Ingredient[]=[new Ingredient('apples',10),new Ingredient('tomatoes',
 
   ngOnInit() {
   }
-
+onnewIngredientadded(ing:Ingredient)
+{
+  this.ingredients.push(ing);
+}
 }
